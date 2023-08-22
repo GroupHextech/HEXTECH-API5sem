@@ -1,0 +1,6 @@
+[submodule "api5-frontend"]
+	path = api5-frontend
+	url = https://github.com/GroupHextech/api5-frontend.git
+[submodule "api5-backend"]
+	path = api5-backend
+	url = https://github.com/GroupHextech/api5-backend.git
