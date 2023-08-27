@@ -1,6 +1,21 @@
 ![Logo](./assets/images/Banner_Hextech.png)
 
 ## Challenge
+Web Page Development Challenge for Restaurant Management
+
+In this challenge, you will have the opportunity to create an online platform that allows restaurant owners to manage their operations efficiently and intuitively. The goal is to build a comprehensive system that offers features such as dashboards, charts, reports, and functionalities for personnel, vendors, and supplies management.
+
+### Functional Requirements
+• Develop an organizational dashboard for personnel, vendors, and supplies. <br>
+• Create a dashboard for employee flow, customer flow, inventory, top-selling dishes. <br>
+• Develop a comparator for customer vs. staff vs. inventory, another comparator for ingredient predictability for dish preparation. <br>
+• In the comparator, check the ingredients and display what needs to be purchased. In the staff comparator, consider customer flow. <br>
+
+### Non-Functional Requirements
+
+• The website response time should be below 1000ms in 99.99% of requests. <br>
+• The application's logging mechanism should generate logs in JSON format (optional). <br>
+• The system should include metrics to help observe its behavior: Number of requests, response time, quantity, and percentage of failures when obtaining data from Golden Sources. <br> 
 
 ## Schedule
 
