@@ -39,7 +39,7 @@ In this challenge, you will have the opportunity to create an online platform th
                 <sub><b>Hextech</b></sub>
                 <br />
             </a>
-            <sub><b>Equipe</b></sub>
+            <sub><b>Team</b></sub>
             <sub><b><a href="https://github.com/GroupHextech"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 8px;">github</button></a></b></sub>
             <br />
         </td>
