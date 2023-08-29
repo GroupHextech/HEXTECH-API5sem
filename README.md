@@ -18,6 +18,36 @@ In this challenge, you will have the opportunity to create an online platform th
 • The system should include metrics to help observe its behavior: Number of requests, response time, quantity, and percentage of failures when obtaining data from Golden Sources. <br> 
 
 ## Schedule
+<table border="1">
+    <tr>
+        <td><b>Data</b></td>
+        <td><b>Evento</b></td>  
+    </tr>
+    <tr>
+        <td>21/08/2023 to 28/08/2023</td>
+        <td>Kick-Off</td>  
+    </tr> 
+    <tr>
+        <td>04/09/2023 to 24/09/2023</td>
+        <td>Sprint1</td>  
+    </tr>    
+    <tr>
+        <td>25/09/2023 to 15/10/2023</td>
+        <td>Sprint2</td>  
+    </tr>
+    <tr>
+        <td>16/10/2023 to 05/11/2023</td>
+        <td>Sprint3</td>  
+    </tr>   
+    <tr>
+        <td>06/11/2023 to 26/11/2023</td>
+        <td>Sprint4</td>  
+    </tr>
+    <tr>
+        <td>12/12/2023</td>
+        <td>Solutions Fair</td>  
+    </tr> 
+</table>
 
 ## Backlog
 
@@ -32,18 +62,7 @@ In this challenge, you will have the opportunity to create an online platform th
 ## Team
 <table>
     <tr>
-        <td align="center">
-            <a href="https://github.com/GroupHextech">    
-                <img src="https://cdn.discordapp.com/attachments/337358704997564428/1144283400048496770/image.png" width = "40%">            
-                <br />
-                <sub><b>Hextech</b></sub>
-                <br />
-            </a>
-            <sub><b>Equipe</b></sub>
-            <sub><b><a href="https://github.com/GroupHextech"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 8px;">github</button></a></b></sub>
-            <br />
-        </td>
-        <td align="center">
+<td align="center">
             <a href="https://github.com/michelrubens">
                 <img src="https://avatars.githubusercontent.com/u/61568495?v=4" width = "40%">            
                 <br />
@@ -53,6 +72,7 @@ In this challenge, you will have the opportunity to create an online platform th
             <sub><b>Product Owner</b></sub>
             <sub><b><a href="https://github.com/michelrubens"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 8px;">github</button></a></b></sub>
             <br />
+        </td>
         <td align="center">
             <a href="https://github.com/AugustoTSantos">   
                 <img src="https://avatars.githubusercontent.com/u/77200265?v=4" width = "40%"> 
@@ -62,6 +82,17 @@ In this challenge, you will have the opportunity to create an online platform th
                 </a>
             <sub><b>Scrum Master</b></sub>
             <sub><b><a href="https://github.com/AugustoTSantos"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 8px;">github</button></a></b></sub>
+            <br />
+        </td>
+        <td align="center">
+            <a href="https://github.com/nicursino">   
+                <img src="https://avatars.githubusercontent.com/u/67070670?v=4" width = "40%"> 
+                <br />
+                <sub><b>Nicolas Cursino</b></sub>
+                <br />
+                </a>
+            <sub><b>Developer</b></sub>
+            <sub><b><a href="https://github.com/nicursino"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 8px;">github</button></a></b></sub>
             <br />
         </td>
     </tr>
