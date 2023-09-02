@@ -62,6 +62,7 @@ In this challenge, you will have the opportunity to create an online platform th
 ## Team
 <table>
     <tr>
+
 <td align="center">
             <a href="https://github.com/michelrubens">
                 <img src="https://avatars.githubusercontent.com/u/61568495?v=4" width = "40%">            
