@@ -4,18 +4,21 @@
 Web Page Development Challenge for Restaurant Management
 
 In this challenge, you will have the opportunity to create an online platform that allows restaurant owners to manage their operations efficiently and intuitively. The goal is to build a comprehensive system that offers features such as dashboards, charts, reports, and functionalities for personnel, vendors, and supplies management.
+<p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ### Functional Requirements
 • Develop an organizational dashboard for personnel, vendors, and supplies. <br>
 • Create a dashboard for employee flow, customer flow, inventory, top-selling dishes. <br>
 • Develop a comparator for customer vs. staff vs. inventory, another comparator for ingredient predictability for dish preparation. <br>
 • In the comparator, check the ingredients and display what needs to be purchased. In the staff comparator, consider customer flow. <br>
+<p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ### Non-Functional Requirements
 
 • The website response time should be below 1000ms in 99.99% of requests. <br>
 • The application's logging mechanism should generate logs in JSON format (optional). <br>
 • The system should include metrics to help observe its behavior: Number of requests, response time, quantity, and percentage of failures when obtaining data from Golden Sources. <br> 
+<p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ## Schedule
 <table border="1">
@@ -48,25 +51,31 @@ In this challenge, you will have the opportunity to create an online platform th
         <td>Solutions Fair</td>  
     </tr> 
 </table>
+<p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ## Backlog
-<img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/backlog.png" width = "100%"> 
+<img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/backlog.png" width = "100%">
+<p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ## Mockup
-<img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/conceitual.png" width = "100%"> 
+<img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/conceitual.png" width = "100%">
+<p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ## Logical Model
-<img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/logico.png" width = "100%"> 
+<img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/logico.png" width = "100%">
+<p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ## Burndown
+<p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ## Data Dictionary
+[Click here to accesses the Data Dictionary](https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/documents/cloudKitchen.pdf)
+<p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ## Team
 <table>
     <tr>
-
-<td align="center">
+        <td align="center">
             <a href="https://github.com/michelrubens">
                 <img src="https://avatars.githubusercontent.com/u/61568495?v=4" width = "40%">            
                 <br />
@@ -105,7 +114,7 @@ In this challenge, you will have the opportunity to create an online platform th
             <a href="https://github.com/williamantoniazzi">
                 <img src="https://avatars.githubusercontent.com/u/62269345?v=4" width = "40%"> 
                 <br />
-                <sub><b>Willian Toniazzi</b></sub>
+                <sub><b>William Antoniazzi</b></sub>
                 <br />
             </a>
             <sub><b>Developer</b></sub>
@@ -137,5 +146,9 @@ In this challenge, you will have the opportunity to create an online platform th
     </tr>
 </table>
 
+<p align="right">(<a href="#top">scroll to top</a>)</p>
+
 ## HexTech - Technology Solutions
 Development repository for 5º semester API FATEC SJC/SP - Oracle/Impacto Social
+
+<p align="right">(<a href="#top">scroll to top</a>)</p>
