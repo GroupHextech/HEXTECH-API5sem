@@ -59,14 +59,13 @@ In this challenge, you will have the opportunity to create an online platform th
 <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/backlog.png" width = "100%">
 <p align="right">(<a href="#top">scroll to top</a>)</p>
 
-## Mockup
+## Conceitual Model
 
-
-<img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/logico.png" width = "100%">
+<img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/conceitual.png" width = "100%">
 <p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ## Logical Model
-<img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/conceitual.png" width = "100%">
+<img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/logico.png" width = "100%">
 <p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ## Burndown
