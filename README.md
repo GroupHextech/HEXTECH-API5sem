@@ -1,3 +1,5 @@
+<div id="top"></div>
+
 ![Logo](./assets/images/Banner_Hextech.png)
 
 ## Challenge
@@ -23,8 +25,8 @@ In this challenge, you will have the opportunity to create an online platform th
 ## Schedule
 <table border="1">
     <tr>
-        <td><b>Data</b></td>
-        <td><b>Evento</b></td>  
+        <td><b>Date</b></td>
+        <td><b>Event</b></td>  
     </tr>
     <tr>
         <td>21/08/2023 to 28/08/2023</td>
@@ -58,6 +60,8 @@ In this challenge, you will have the opportunity to create an online platform th
 <p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ## Mockup
+
+
 <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/images/logico.png" width = "100%">
 <p align="right">(<a href="#top">scroll to top</a>)</p>
 
@@ -73,78 +77,15 @@ In this challenge, you will have the opportunity to create an online platform th
 <p align="right">(<a href="#top">scroll to top</a>)</p>
 
 ## Team
-<table>
-    <tr>
-        <td align="center">
-            <a href="https://github.com/michelrubens">
-                <img src="https://avatars.githubusercontent.com/u/61568495?v=4" width = "40%">            
-                <br />
-                <sub><b>Michel Rubens</b></sub>
-                <br />
-            </a>
-            <sub><b>Product Owner</b></sub>
-            <sub><b><a href="https://github.com/michelrubens"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 8px;">github</button></a></b></sub>
-            <br />
-        </td>
-        <td align="center">
-            <a href="https://github.com/AugustoTSantos">   
-                <img src="https://avatars.githubusercontent.com/u/77200265?v=4" width = "40%"> 
-                <br />
-                <sub><b>Augusto Torres</b></sub>
-                <br />
-                </a>
-            <sub><b>Scrum Master</b></sub>
-            <sub><b><a href="https://github.com/AugustoTSantos"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 8px;">github</button></a></b></sub>
-            <br />
-        </td>
-        <td align="center">
-            <a href="https://github.com/nicursino">   
-                <img src="https://avatars.githubusercontent.com/u/67070670?v=4" width = "40%"> 
-                <br />
-                <sub><b>Nicolas Cursino</b></sub>
-                <br />
-                </a>
-            <sub><b>Developer</b></sub>
-            <sub><b><a href="https://github.com/nicursino"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 8px;">github</button></a></b></sub>
-            <br />
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <a href="https://github.com/williamantoniazzi">
-                <img src="https://avatars.githubusercontent.com/u/62269345?v=4" width = "40%"> 
-                <br />
-                <sub><b>William Antoniazzi</b></sub>
-                <br />
-            </a>
-            <sub><b>Developer</b></sub>
-            <sub><b><a href="https://github.com/williamantoniazzi"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 8px;">github</button></a></b></sub> 
-            <br />
-        </td>
-        <td align="center">
-            <a href="https://github.com/PatrickSouzza">
-                <img src="https://avatars.githubusercontent.com/u/89882058?v=4" width = "40%"> 
-                <br />
-                <sub><b>Patrick Souza</b></sub>
-                <br />
-            </a>
-            <sub><b>Developer</b></sub>
-            <sub><b><a href="https://github.com/PatrickSouzza"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 8px;">github</button></a></b></sub>
-            <br />
-        </td>
-        <td align="center">
-            <a href="https://github.com/Valdineynascimento">   
-                <img src="https://avatars.githubusercontent.com/u/71536881?v=4" width = "40%"> 
-                <br />
-                <sub><b>Valdiney Nascimento</b></sub>
-                <br />
-                </a>
-            <sub><b>Developer</b></sub>
-            <sub><b><a href="https://github.com/Valdineynascimento"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 8px;">github</button></a></b></sub>
-            <br />
-        </td>
-    </tr>
-</table>
+| Photo | Name | Function | Links |
+| --- | :---: | :---: | --- |
+| <img src="https://avatars.githubusercontent.com/michelrubens" alt="Michel Rubens" width="50"> | <b>Michel Rubens</b> | Product Owner | [![](https://bit.ly/3f9Xo0P)](https://github.com/michelrubens)  [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/michelrubens) |
+| <img src="https://avatars.githubusercontent.com/u/77200265?v=4" alt="Augusto Torres" width="50"> | <b>Augusto Torres</b> | Scrum Master | [![](https://bit.ly/3f9Xo0P)](https://github.com/AugustoTSantos)  [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/augusto-torres-7919881b9/) |
+| <img src="https://avatars.githubusercontent.com/u/67070670?v=4" alt="Nicolas Cursino" width="50"> | <b>Nicolas Cursino</b> | Developer | [![](https://bit.ly/3f9Xo0P)](https://github.com/nicursino)  [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/nicolas-cursino-406935184/) |
+| <img src="https://avatars.githubusercontent.com/u/89882058?v=4" alt="Patrick Souza" width="50"> | <b>Patrick Souza</b> | Developer | [![](https://bit.ly/3f9Xo0P)](https://github.com/PatrickSouzza)  [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/patricksouzza/) |
+| <img src="https://avatars.githubusercontent.com/u/71536881?v=4" alt="Valdiney Nascimento" width="50"> | <b>Valdiney Nascimento</b> | Developer | [![](https://bit.ly/3f9Xo0P)](https://github.com/Valdineynascimento)  [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/valdiney-jos%C3%A9-do-nascimento-68a136214/) |
+| <img src="https://avatars.githubusercontent.com/u/62269345?v=4" alt="William Antoniazzi" width="50"> | <b>William Antoniazzi</b> | Developer | [![](https://bit.ly/3f9Xo0P)](https://github.com/williamantoniazzi)  [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/williamantoniazzi/) |
+
 
 <p align="right">(<a href="#top">scroll to top</a>)</p>
 
