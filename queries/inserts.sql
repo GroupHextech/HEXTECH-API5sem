@@ -38,26 +38,6 @@ VALUES (fun_funcionario_seq.NEXTVAL, 'Funcionário 4', 'Cozinheiro', 3200.00, 8,
 INSERT INTO fun_funcionario (fun_id, fun_nome, fun_funcao, fun_salario, fun_desempenho, fun_folga)
 VALUES (fun_funcionario_seq.NEXTVAL, 'Funcionário 5', 'Garçom', 2400.00, 9, TO_DATE('2023-09-23', 'YYYY-MM-DD'));
 
--- Inserindo dados na tabela ins_insumo
-INSERT INTO ins_insumo (ins_id, ins_quantidade, ins_validade, ins_data_hora_compra, ins_valor_compra, for_id, ite_id)
-VALUES (ins_insumo_seq.NEXTVAL, '100 unidades', TO_DATE('2023-12-31', 'YYYY-MM-DD'), TIMESTAMP '2023-09-19 10:00:00', 150.00, 1, 1);
-
-
-INSERT INTO ins_insumo (ins_id, ins_quantidade, ins_validade, ins_data_hora_compra, ins_valor_compra, for_id, ite_id)
-VALUES (ins_insumo_seq.NEXTVAL, '50 unidades', TO_DATE('2023-11-30', 'YYYY-MM-DD'), TIMESTAMP '2023-09-20 14:30:00', 80.00, 2, 2);
-
-
-INSERT INTO ins_insumo (ins_id, ins_quantidade, ins_validade, ins_data_hora_compra, ins_valor_compra, for_id, ite_id)
-VALUES (ins_insumo_seq.NEXTVAL, '75 unidades', TO_DATE('2023-10-31', 'YYYY-MM-DD'), TIMESTAMP '2023-09-24 12:15:00', 120.00, 3, 3);
-
-
-INSERT INTO ins_insumo (ins_id, ins_quantidade, ins_validade, ins_data_hora_compra, ins_valor_compra, for_id, ite_id)
-VALUES (ins_insumo_seq.NEXTVAL, '90 unidades', TO_DATE('2023-11-30', 'YYYY-MM-DD'), TIMESTAMP '2023-09-25 09:30:00', 180.00, 4, 4);
-
-
-INSERT INTO ins_insumo (ins_id, ins_quantidade, ins_validade, ins_data_hora_compra, ins_valor_compra, for_id, ite_id)
-VALUES (ins_insumo_seq.NEXTVAL, '120 unidades', TO_DATE('2023-12-31', 'YYYY-MM-DD'), TIMESTAMP '2023-09-26 15:45:00', 200.00, 5, 5);
-
 -- Inserindo dados na tabela ite_item
 INSERT INTO ite_item (ite_id, ite_nome)
 VALUES (ite_item_seq.NEXTVAL, 'Item 1');
@@ -77,6 +57,7 @@ VALUES (ite_item_seq.NEXTVAL, 'Item 4');
 
 INSERT INTO ite_item (ite_id, ite_nome)
 VALUES (ite_item_seq.NEXTVAL, 'Item 5');
+
 
 -- Inserindo dados na tabela pra_prato
 INSERT INTO pra_prato (pra_id, pra_nome, pra_custo, pra_preco_venda, pra_desempenho)
@@ -113,6 +94,22 @@ VALUES (res_reserva_seq.NEXTVAL, 'RESERVA 4', 4, TIMESTAMP '2023-09-28 20:00:00'
 
 INSERT INTO res_reserva (res_id, res_nome, res_mesa, res_data_hora, res_status, pra_id, res_telefone)
 VALUES (res_reserva_seq.NEXTVAL, 'RESERVA 5', 6, TIMESTAMP '2023-09-29 19:00:00', 'CONFIRMADA', 5, '12970654209');
+
+-- Inserindo dados na tabela ins_insumo
+INSERT INTO ins_insumo (ins_id, ins_quantidade, ins_validade, ins_data_hora_compra, ins_valor_compra, for_id, ite_id)
+VALUES (ins_insumo_seq.NEXTVAL, '100 unidades', TO_DATE('2023-12-31', 'YYYY-MM-DD'), TIMESTAMP '2023-09-19 10:00:00', 150.00, 1, 1);
+
+INSERT INTO ins_insumo (ins_id, ins_quantidade, ins_validade, ins_data_hora_compra, ins_valor_compra, for_id, ite_id)
+VALUES (ins_insumo_seq.NEXTVAL, '50 unidades', TO_DATE('2023-11-30', 'YYYY-MM-DD'), TIMESTAMP '2023-09-20 14:30:00', 80.00, 2, 2);
+
+INSERT INTO ins_insumo (ins_id, ins_quantidade, ins_validade, ins_data_hora_compra, ins_valor_compra, for_id, ite_id)
+VALUES (ins_insumo_seq.NEXTVAL, '75 unidades', TO_DATE('2023-10-31', 'YYYY-MM-DD'), TIMESTAMP '2023-09-24 12:15:00', 120.00, 3, 3);
+
+INSERT INTO ins_insumo (ins_id, ins_quantidade, ins_validade, ins_data_hora_compra, ins_valor_compra, for_id, ite_id)
+VALUES (ins_insumo_seq.NEXTVAL, '90 unidades', TO_DATE('2023-11-30', 'YYYY-MM-DD'), TIMESTAMP '2023-09-25 09:30:00', 180.00, 4, 4);
+
+INSERT INTO ins_insumo (ins_id, ins_quantidade, ins_validade, ins_data_hora_compra, ins_valor_compra, for_id, ite_id)
+VALUES (ins_insumo_seq.NEXTVAL, '120 unidades', TO_DATE('2023-12-31', 'YYYY-MM-DD'), TIMESTAMP '2023-09-26 15:45:00', 200.00, 5, 5);
 
 -- Inserindo dados na tabela con_confeccao
 INSERT INTO con_confeccao (pra_id, ins_id, con_id)

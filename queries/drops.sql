@@ -12,7 +12,7 @@ DROP TABLE pra_prato;
 
 DROP TABLE res_reserva;
 
-DROP SEQUENCE con_confeccao_seq
+DROP SEQUENCE con_confeccao_seq;
 
 DROP SEQUENCE for_fornecedor_seq;
 
