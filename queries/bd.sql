@@ -147,22 +147,4 @@ CREATE SEQUENCE res_reserva_seq
     NOCACHE
     NOCYCLE;
 
-
--- INSERT: res_reserva TABLE
-INSERT INTO res_reserva (res_id, res_nome, res_mesa, res_data_hora, res_status, pra_id, res_telefone)
-VALUES (res_reserva_seq.NEXTVAL, 'RESERVA 1', 3, TIMESTAMP '2023-09-22 18:00:00', 'CONFIRMADA', 1, '12987654321');
-
-INSERT INTO res_reserva (res_id, res_nome, res_mesa, res_data_hora, res_status, pra_id, res_telefone)
-VALUES (res_reserva_seq.NEXTVAL, 'RESERVA 2', 5, TIMESTAMP '2023-09-23 19:30:00', 'CONFIRMADA', 2, '11912345678');
-
-INSERT INTO res_reserva (res_id, res_nome, res_mesa, res_data_hora, res_status, pra_id, res_telefone)
-VALUES (res_reserva_seq.NEXTVAL, 'RESERVA 3', 2, TIMESTAMP '2023-09-27 17:30:00', 'CONFIRMADA', 3, '1390876543');
-
-INSERT INTO res_reserva (res_id, res_nome, res_mesa, res_data_hora, res_status, pra_id, res_telefone)
-VALUES (res_reserva_seq.NEXTVAL, 'RESERVA 4', 4, TIMESTAMP '2023-09-28 20:00:00', 'PENDENTE', 4, '11987654320');
-
-INSERT INTO res_reserva (res_id, res_nome, res_mesa, res_data_hora, res_status, pra_id, res_telefone)
-VALUES (res_reserva_seq.NEXTVAL, 'RESERVA 5', 6, TIMESTAMP '2023-09-29 19:00:00', 'CONFIRMADA', 5, '12970654209');
-
-
 -- End of file.
