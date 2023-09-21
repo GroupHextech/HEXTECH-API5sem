@@ -40,7 +40,7 @@ CREATE TABLE ins_insumo (
 -- Table: ite_item
 CREATE TABLE ite_item (
     ite_id INTEGER NOT NULL,
-    ite_nome INTEGER NOT NULL,
+    ite_nome VARCHAR(50) NOT NULL,
     CONSTRAINT ite_item_pk PRIMARY KEY (ite_id)
 );
 
@@ -60,6 +60,7 @@ CREATE TABLE res_reserva (
     res_nome VARCHAR(50) NOT NULL,
     res_mesa INTEGER NOT NULL,
     res_data_hora TIMESTAMP NOT NULL,
+	res_telefone VARCHAR(15) NOT NULL,
     res_status VARCHAR(50) NOT NULL,
     pra_id INTEGER NOT NULL,
     CONSTRAINT res_reserva_pk PRIMARY KEY (res_id)
@@ -139,6 +140,14 @@ CREATE SEQUENCE pra_prato_seq
 
 -- Sequence: res_reserva_seq
 CREATE SEQUENCE res_reserva_seq
+    INCREMENT BY 1
+    NOMINVALUE
+    NOMAXVALUE
+    START WITH 1
+    NOCACHE
+    NOCYCLE;
+
+CREATE SEQUENCE con_confeccao_seq
     INCREMENT BY 1
     NOMINVALUE
     NOMAXVALUE
