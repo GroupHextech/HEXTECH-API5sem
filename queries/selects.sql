@@ -1,3 +1,4 @@
+--tabelas
 SELECT * FROM con_confeccao;
 
 SELECT * FROM for_fornecedor;
@@ -11,3 +12,7 @@ SELECT * FROM ite_item;
 SELECT * FROM pra_prato;
 
 SELECT * FROM res_reserva;
+
+--views
+SELECT * FROM mesa_status_por_data;
+
