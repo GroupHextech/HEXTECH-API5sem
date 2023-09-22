@@ -19,3 +19,4 @@ SELECT
 FROM ins_insumo i
 LEFT JOIN ite_item t ON i.ite_id = t.ite_id
 LEFT JOIN for_fornecedor f ON i.for_id = f.for_id;
+
