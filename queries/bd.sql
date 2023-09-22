@@ -48,6 +48,7 @@ CREATE TABLE fun_funcionario (
 CREATE TABLE res_reserva (
     res_id NUMBER(10) PRIMARY KEY,
     res_nome VARCHAR2(50),
+    res_telefone VARCHAR2(50),
     res_mesa NUMBER(5),
     res_data_hora TIMESTAMP,
     res_status VARCHAR2(50)
