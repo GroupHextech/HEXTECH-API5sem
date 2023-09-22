@@ -18,3 +18,7 @@ SELECT * FROM fun_funcionario;
 
 -- SELECT na tabela res_reserva
 SELECT * FROM res_reserva;
+
+--views
+SELECT * FROM mesa_status_por_data;
+
