@@ -18,3 +18,9 @@ SELECT * FROM fun_funcionario;
 
 -- SELECT na tabela res_reserva
 SELECT * FROM res_reserva;
+
+-- SELECT da view v_detalhes_insumo_fornecedor
+SELECT * FROM v_detalhes_insumo_fornecedor;
+
+-- SELECT da v_detalhes_insumo_com_diferenca
+SELECT * FROM v_detalhes_insumo_com_diferenca;
