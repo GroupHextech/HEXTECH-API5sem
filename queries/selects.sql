@@ -18,3 +18,9 @@ SELECT * FROM fun_funcionario;
 
 -- SELECT na tabela res_reserva
 SELECT * FROM res_reserva;
+
+-- SELECT da view v_media_desempenho_restaurante
+SELECT * FROM v_media_desempenho_restaurante;
+
+-- SELECT da view v_quantidade_notas_restaurante
+SELECT * FROM v_quantidade_notas_restaurante;
