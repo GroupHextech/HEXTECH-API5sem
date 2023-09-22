@@ -1,158 +1,128 @@
--- tables
--- Table: con_confeccao
-CREATE TABLE con_confeccao (
-    pra_id INTEGER NOT NULL,
-    ins_id INTEGER NOT NULL,
-    con_id INTEGER NOT NULL,
-    CONSTRAINT con_confeccao_pk PRIMARY KEY (con_id)
-);
+-- Lógico_1:
 
--- Table: for_fornecedor
 CREATE TABLE for_fornecedor (
-    for_id INTEGER NOT NULL,
-    for_nome VARCHAR(50) NOT NULL,
-    CONSTRAINT for_fornecedor_pk PRIMARY KEY (for_id)
+    for_id NUMBER(10) PRIMARY KEY,
+    for_nome VARCHAR2(50)
 );
 
--- Table: fun_funcionario
-CREATE TABLE fun_funcionario (
-    fun_id INTEGER NOT NULL,
-    fun_nome VARCHAR(50) NOT NULL,
-    fun_funcao VARCHAR(50) NOT NULL,
-    fun_salario FLOAT(2) NOT NULL,
-    fun_desempenho INTEGER NOT NULL,
-    fun_folga DATE NOT NULL,
-    CONSTRAINT fun_funcionario_pk PRIMARY KEY (fun_id)
-);
-
--- Table: ins_insumo
 CREATE TABLE ins_insumo (
-    ins_id INTEGER NOT NULL,
-    ins_quantidade VARCHAR(50) NOT NULL,
-    ins_validade DATE NOT NULL,
-    ins_data_hora_compra TIMESTAMP NOT NULL,
-    ins_valor_compra FLOAT(2) NOT NULL,
-    for_id INTEGER NOT NULL,
-    ite_id INTEGER NOT NULL,
-    CONSTRAINT ins_insumo_pk PRIMARY KEY (ins_id)
+    ins_id NUMBER(10) PRIMARY KEY,
+    ins_quantidade NUMBER(10, 2),
+    ins_validade DATE,
+    ins_data_hora_compra TIMESTAMP,
+    ins_valor_compra NUMBER(10, 2),
+    ite_id NUMBER(10),
+    for_id NUMBER(10)
 );
 
--- Table: ite_item
 CREATE TABLE ite_item (
-    ite_id INTEGER NOT NULL,
-    ite_nome VARCHAR(50) NOT NULL,
-    CONSTRAINT ite_item_pk PRIMARY KEY (ite_id)
+    ite_id NUMBER(10) PRIMARY KEY,
+    ite_nome VARCHAR2(50)
 );
 
--- Table: pra_prato
+CREATE TABLE rst_restaurante (
+    rst_id NUMBER(10) PRIMARY KEY,
+    rst_nome VARCHAR2(50),
+    rst_nota NUMBER(3),
+    pra_id NUMBER(10),
+    ins_id NUMBER(10)
+);
+
 CREATE TABLE pra_prato (
-    pra_id INTEGER NOT NULL,
-    pra_nome VARCHAR(50) NOT NULL,
-    pra_custo FLOAT(2) NOT NULL,
-    pra_preco_venda FLOAT(2) NOT NULL,
-    pra_desempenho INTEGER NOT NULL,
-    CONSTRAINT pra_prato_pk PRIMARY KEY (pra_id)
+    pra_id NUMBER(10) PRIMARY KEY,
+    pra_nome VARCHAR2(50),
+    pra_custo NUMBER(10, 2),
+    pra_preco_venda NUMBER(10, 2),
+    res_id NUMBER(10)
 );
 
--- Table: res_reserva
+CREATE TABLE fun_funcionario (
+    fun_id NUMBER(10) PRIMARY KEY,
+    fun_nome VARCHAR2(50),
+    fun_funcao VARCHAR2(50),
+    fun_salario NUMBER(10, 2),
+    fun_desempenho NUMBER(3),
+    fun_folga TIMESTAMP
+);
+
 CREATE TABLE res_reserva (
-    res_id INTEGER NOT NULL,
-    res_nome VARCHAR(50) NOT NULL,
-    res_mesa INTEGER NOT NULL,
-    res_data_hora TIMESTAMP NOT NULL,
-	res_telefone VARCHAR(15) NOT NULL,
-    res_status VARCHAR(50) NOT NULL,
-    pra_id INTEGER NOT NULL,
-    CONSTRAINT res_reserva_pk PRIMARY KEY (res_id)
+    res_id NUMBER(10) PRIMARY KEY,
+    res_nome VARCHAR2(50),
+    res_mesa NUMBER(5),
+    res_data_hora TIMESTAMP,
+    res_status VARCHAR2(50)
 );
 
--- foreign keys
--- Reference: con_confeccao (table: con_confeccao)
-ALTER TABLE con_confeccao ADD CONSTRAINT con_confeccao_fk
-    FOREIGN KEY (ins_id)
-    REFERENCES ins_insumo (ins_id);
-
--- Reference: ins_insumo_for_fornecedor (table: ins_insumo)
-ALTER TABLE ins_insumo ADD CONSTRAINT ins_insumo_for_fornecedor_fk
-    FOREIGN KEY (for_id)
-    REFERENCES for_fornecedor (for_id);
-
--- Reference: ins_insumo_ite_item (table: ins_insumo)
-ALTER TABLE ins_insumo ADD CONSTRAINT ins_insumo_ite_item_fk
+ALTER TABLE ins_insumo ADD CONSTRAINT FK_ins_insumo_2
     FOREIGN KEY (ite_id)
-    REFERENCES ite_item (ite_id);
+    REFERENCES ite_item (ite_id)
+    ON DELETE SET NULL;
 
--- Reference: ins_insumo_pra_prato_pra_prato (table: con_confeccao)
-ALTER TABLE con_confeccao ADD CONSTRAINT ins_insumo_pra_prato_pra_prato_fk
+ALTER TABLE ins_insumo ADD CONSTRAINT FK_ins_insumo_3
+    FOREIGN KEY (for_id)
+    REFERENCES for_fornecedor (for_id)
+    ON DELETE SET NULL;
+
+ALTER TABLE rst_restaurante ADD CONSTRAINT FK_rst_restaurante_2
     FOREIGN KEY (pra_id)
-    REFERENCES pra_prato (pra_id);
+    REFERENCES pra_prato (pra_id)
+    ON DELETE SET NULL;
 
--- Reference: res_reserva_pra_prato (table: res_reserva)
-ALTER TABLE res_reserva ADD CONSTRAINT res_reserva_pra_prato_fk
-    FOREIGN KEY (pra_id)
-    REFERENCES pra_prato (pra_id);
+ALTER TABLE rst_restaurante ADD CONSTRAINT FK_rst_restaurante_3
+    FOREIGN KEY (ins_id)
+    REFERENCES ins_insumo (ins_id)
+    ON DELETE SET NULL;
 
--- sequences
--- Sequence: for_fornecedor_seq
+ALTER TABLE pra_prato ADD CONSTRAINT FK_pra_prato_2
+    FOREIGN KEY (res_id)
+    REFERENCES res_reserva (res_id)
+    ON DELETE SET NULL;
+
+-- Sequência para a tabela for_fornecedor
 CREATE SEQUENCE for_fornecedor_seq
-    INCREMENT BY 1
-    NOMINVALUE
-    NOMAXVALUE
     START WITH 1
+    INCREMENT BY 1
     NOCACHE
     NOCYCLE;
 
--- Sequence: fun_funcionario_seq
-CREATE SEQUENCE fun_funcionario_seq
-    INCREMENT BY 1
-    NOMINVALUE
-    NOMAXVALUE
-    START WITH 1
-    NOCACHE
-    NOCYCLE;
-
--- Sequence: ins_insumo_seq
+-- Sequência para a tabela ins_insumo
 CREATE SEQUENCE ins_insumo_seq
-    INCREMENT BY 1
-    NOMINVALUE
-    NOMAXVALUE
     START WITH 1
+    INCREMENT BY 1
     NOCACHE
     NOCYCLE;
 
--- Sequence: ite_item_seq
+-- Sequência para a tabela ite_item
 CREATE SEQUENCE ite_item_seq
-    INCREMENT BY 1
-    NOMINVALUE
-    NOMAXVALUE
     START WITH 1
+    INCREMENT BY 1
     NOCACHE
     NOCYCLE;
 
--- Sequence: pra_prato_seq
+-- Sequência para a tabela rst_restaurante
+CREATE SEQUENCE rst_restaurante_seq
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequência para a tabela pra_prato
 CREATE SEQUENCE pra_prato_seq
-    INCREMENT BY 1
-    NOMINVALUE
-    NOMAXVALUE
     START WITH 1
+    INCREMENT BY 1
     NOCACHE
     NOCYCLE;
 
--- Sequence: res_reserva_seq
+-- Sequência para a tabela fun_funcionario
+CREATE SEQUENCE fun_funcionario_seq
+    START WITH 1
+    INCREMENT BY 1
+    NOCACHE
+    NOCYCLE;
+
+-- Sequência para a tabela res_reserva
 CREATE SEQUENCE res_reserva_seq
-    INCREMENT BY 1
-    NOMINVALUE
-    NOMAXVALUE
     START WITH 1
+    INCREMENT BY 1
     NOCACHE
     NOCYCLE;
-
-CREATE SEQUENCE con_confeccao_seq
-    INCREMENT BY 1
-    NOMINVALUE
-    NOMAXVALUE
-    START WITH 1
-    NOCACHE
-    NOCYCLE;
-
--- End of file.
