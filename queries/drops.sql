@@ -15,3 +15,6 @@ DROP SEQUENCE rst_restaurante_seq;
 DROP SEQUENCE ite_item_seq;
 DROP SEQUENCE ins_insumo_seq;
 DROP SEQUENCE for_fornecedor_seq;
+
+-- Drop das views
+DROP VIEW mesa_status_por_data;
