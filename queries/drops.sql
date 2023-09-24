@@ -7,17 +7,8 @@ DROP TABLE ite_item;
 DROP TABLE ins_insumo;
 DROP TABLE for_fornecedor;
 
--- Drop das sequências
-DROP SEQUENCE res_reserva_seq;
-DROP SEQUENCE fun_funcionario_seq;
-DROP SEQUENCE pra_prato_seq;
-DROP SEQUENCE rst_restaurante_seq;
-DROP SEQUENCE ite_item_seq;
-DROP SEQUENCE ins_insumo_seq;
-DROP SEQUENCE for_fornecedor_seq;
-
 -- Drop das views
-DROP VIEW mesa_status_por_data;
+DROP VIEW v_mesa_status_por_data;
 DROP VIEW v_media_desempenho_restaurante;
 DROP VIEW v_quantidade_notas_restaurante;
 DROP VIEW v_detalhes_insumo_fornecedor;
