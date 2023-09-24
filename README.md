@@ -47,7 +47,7 @@
 |  Sprint 4  | In development | 26/11 | - |
 
 ## Data Dictionary 📖
-[Click here to accesses the Data Dictionary](https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/documents/cloudKitchen.pdf)
+[Click here to accesses the Data Dictionary](https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Bench%20Models/cloudKitchen.pdf)
 
 ## Team 👩‍💻
 <body>
