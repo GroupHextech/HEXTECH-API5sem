@@ -1,5 +1,5 @@
 -- View mesa_status_por_data
-CREATE OR REPLACE VIEW mesa_status_por_data AS
+CREATE OR REPLACE VIEW v_mesa_status_por_data AS
 SELECT
     r.res_nome AS nome,
     r.res_telefone AS telefone,
