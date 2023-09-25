@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="" alt="Logo Hextech" width="220px" height="220px">
+    <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/images/Banner_Hextech.png" alt="Logo Hextech">
 </h1>
 <p align="center">
         <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
@@ -40,14 +40,14 @@
 ## Delivery Schedule 🗓
 | *Sprints*  | *About* | *Delivery*    | *README*  |
 | ---------- | ------  | ------------- | ------    | 
-|  Kick-Off  | Project development planning |  28/08  | *Not Necessary* | 
-|  Sprint 1  | Viewing and making reservations, viewing customer feedback and managing ingredients supplies | 24/09 | [View]() |
+|  Kick-Off  | Project development planning |  28/08  | *N/A* | 
+|  Sprint 1  | Viewing and making reservations, viewing customer feedback and managing ingredients supplies | 24/09 | [View](https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/README/README%20Sprint1.md) |
 |  Sprint 2  | In development | 15/10 | - | 
 |  Sprint 3  | In development | 05/11 | - | 
 |  Sprint 4  | In development | 26/11 | - |
 
 ## Data Dictionary 📖
-[Click here to accesses the Data Dictionary](https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/assets/documents/cloudKitchen.pdf)
+[Click here to accesses the Data Dictionary](https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Bench%20Models/cloudKitchen.pdf)
 
 ## Team 👩‍💻
 <body>

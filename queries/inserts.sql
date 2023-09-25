@@ -26,19 +26,19 @@ VALUES (180, '2023-12-10', NOW(), 14.75, 5, 5);
 
 -- Inserir dados na tabela res_reserva utilizando auto_increment
 INSERT INTO res_reserva (res_nome, res_mesa, res_telefone, res_data_hora, res_status)
-VALUES ('Reserva João', 3, '(123) 456-7890', '2023-09-23 18:00:00', 'Confirmada');
+VALUES ('João', 3, '(27) 92859-4796', '2023-09-26 19:00:00', 'reservada');
 
 INSERT INTO res_reserva (res_nome, res_mesa, res_telefone, res_data_hora, res_status)
-VALUES ('Reserva Maria', 5, '(987) 654-3210', '2023-09-24 19:30:00', 'Confirmada');
+VALUES ('Maria', 5, '(54) 93244-5588', '2023-09-26 19:00:00', 'reservada');
 
 INSERT INTO res_reserva (res_nome, res_mesa, res_telefone, res_data_hora, res_status)
-VALUES ('Reserva Pedro', 2, '(111) 222-3333', '2023-09-25 20:15:00', 'Pendente');
+VALUES ('Pedro', 2, '(79) 93585-7273', '2023-09-26 20:00:00', 'reservada');
 
 INSERT INTO res_reserva (res_nome, res_mesa, res_telefone, res_data_hora, res_status)
-VALUES ('Reserva Ana', 4, '(555) 777-9999', '2023-09-26 17:45:00', 'Confirmada');
+VALUES ('Ana', 4, '(24) 93413-4223', '2023-09-27 17:00:00', 'reservada');
 
 INSERT INTO res_reserva (res_nome, res_mesa, res_telefone, res_data_hora, res_status)
-VALUES ('Reserva Carlos', 6, '(444) 333-2222', '2023-09-27 21:00:00', 'Pendente');
+VALUES ('Carlos', 6, '(51) 93600-6275', '2023-09-27 17:00:00', 'reservada');
 
 -- Inserir dados na tabela pra_prato utilizando auto_increment
 INSERT INTO pra_prato (pra_nome, pra_custo, pra_preco_venda, res_id)
