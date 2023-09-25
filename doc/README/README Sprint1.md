@@ -38,6 +38,8 @@ The goal is to build a comprehensive system that offers features such as dashboa
   In this first Sprint we decided to deliver the ingredient stock management screens, table reservations and dates, and finally the visualization of customer feedback.
 </p>
 
+<p align="center"> <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Mockup/Project%20in%20Operation/ProjectOperationSprint1.gif">
+    
 ##  <p align="center"> Definition of Ready 📑
 
 <p align="justify">
