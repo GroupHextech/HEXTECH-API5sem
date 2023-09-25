@@ -10,7 +10,7 @@
 
 <h2 align="right">
         <img src="https://img.shields.io/badge/status-ongoing-blue?style=for-the-badge&logo=appveyor" alt="Status: Ongoing">   
-        <img src="https://img.shields.io/badge/sprint-1-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
+        <img src="https://img.shields.io/badge/sprint-2-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
 </h2>
 
 
@@ -25,19 +25,30 @@
 - [Team 👩‍💻](#team-)
 
 
-## About 📚
+# About 📚
 
 <p aling="justify"> In this challenge, you will have the opportunity to create an online platform that allows restaurant owners to manage their operations efficiently and intuitively. The goal is to build a comprehensive system that offers features such as dashboards, charts, reports, and functionalities for personnel, vendors, and supplies management. </p>
 
-## Product Backlog 📍
+# Product Backlog 📍
 
-*In development*
+It was decided that the project would be divided into 4 deliveries, throughout the sprints it will be updated and modified as the deliveries progress.
 
-## Project in Operation 💻
+<p align="center">
+        <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%201.png" width="400"/>
+        <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%202.png" width="400"/>
+        <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%203.png" width="400"/>
+        <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%204.png" width="400"/>
 
-*In development*
 
-## Delivery Schedule 🗓
+# Project in Operation 💻
+
+<p align="justify"> In this first sprint we decided to deliver the input, reservation and feedback management screens to start the project, thus integrating frontend, backend and database taking into account the initial model of the web application.
+
+<p align="center"> 
+    <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Mockup/Project%20in%20Operation/ProjectOperationSprint1.gif" width=""/>
+</p>
+
+# Delivery Schedule 🗓
 | *Sprints*  | *About* | *Delivery*    | *README*  |
 | ---------- | ------  | ------------- | ------    | 
 |  Kick-Off  | Project development planning |  28/08  | *N/A* | 
@@ -46,10 +57,10 @@
 |  Sprint 3  | In development | 05/11 | - | 
 |  Sprint 4  | In development | 26/11 | - |
 
-## Data Dictionary 📖
+# Data Dictionary 📖
 [Click here to accesses the Data Dictionary](https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Bench%20Models/cloudKitchen.pdf)
 
-## Team 👩‍💻
+# Team 👩‍💻
 <body>
         <div align="center">
                 <table>
