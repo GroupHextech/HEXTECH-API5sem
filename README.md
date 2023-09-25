@@ -42,7 +42,11 @@ It was decided that the project would be divided into 4 deliveries, throughout t
 
 # Project in Operation 💻
 
-*In development*
+<p align="justify"> In this first sprint we decided to deliver the input, reservation and feedback management screens to start the project, thus integrating frontend, backend and database taking into account the initial model of the web application.
+
+<p align="center"> 
+    <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Mockup/Project%20in%20Operation/ProjectOperationSprint1.gif" width=""/>
+</p>
 
 # Delivery Schedule 🗓
 | *Sprints*  | *About* | *Delivery*    | *README*  |
