@@ -1,5 +1,5 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2023-10-10 00:49:07.096
+-- Last modification date: 2023-10-10 20:11:58.434
 
 -- foreign keys
 ALTER TABLE con_confeccao
@@ -7,6 +7,9 @@ ALTER TABLE con_confeccao
 
 ALTER TABLE con_confeccao
     DROP CONSTRAINT con_confeccao_pra_prato;
+
+ALTER TABLE est_estoque
+    DROP CONSTRAINT est_estoque_cat_categoria;
 
 ALTER TABLE est_estoque
     DROP CONSTRAINT est_estoque_uni_unidade;
@@ -26,10 +29,12 @@ ALTER TABLE ped_pedido
 ALTER TABLE ped_pedido
     DROP CONSTRAINT ped_pedido_res_reserva;
 
-ALTER TABLE ped_pedido
-    DROP CONSTRAINT ped_pedido_sta_status;
+ALTER TABLE res_reserva
+    DROP CONSTRAINT res_reserva_sta_status;
 
 -- tables
+DROP TABLE cat_categoria;
+
 DROP TABLE con_confeccao;
 
 DROP TABLE est_estoque;
