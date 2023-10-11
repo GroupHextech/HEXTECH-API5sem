@@ -1,13 +1,9 @@
 -- View mesa_status_por_data
-CREATE OR REPLACE VIEW v_mesa_status_por_data AS
-SELECT
-    r.res_nome AS nome,
-    r.res_telefone AS telefone,
-    r.res_status AS status,
-    r.res_mesa AS mesa,
-    r.res_data_hora AS data
-FROM
-    res_reserva r;
+CREATE VIEW v_status_reservas AS
+SELECT r.res_data_hora, MAX(s.sta_nome) AS sta_nome
+FROM res_reserva r
+INNER JOIN sta_status s ON r.sta_id = s.sta_id
+GROUP BY r.res_data_hora;
 
 -- View v_media_desempenho_restaurante
 CREATE VIEW v_media_desempenho_restaurante AS

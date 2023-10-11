@@ -81,5 +81,8 @@ DROP SEQUENCE ADMIN.sta_status_seq;
 
 DROP SEQUENCE ADMIN.uni_unidade_seq;
 
+-- Views
+DROP VIEW v_status_reservas;
+
 -- End of file.
 
