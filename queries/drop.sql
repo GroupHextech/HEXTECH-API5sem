@@ -1,7 +1,13 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2023-10-10 20:11:58.434
+-- Last modification date: 2023-10-11 17:29:27.924
 
 -- foreign keys
+ALTER TABLE ite_item_pedido
+    DROP CONSTRAINT Table_13_ped_pedido;
+
+ALTER TABLE ite_item_pedido
+    DROP CONSTRAINT Table_13_pra_prato;
+
 ALTER TABLE con_confeccao
     DROP CONSTRAINT con_confeccao_est_estoque;
 
@@ -24,9 +30,6 @@ ALTER TABLE ped_pedido
     DROP CONSTRAINT ped_pedido_fun_funcionario;
 
 ALTER TABLE ped_pedido
-    DROP CONSTRAINT ped_pedido_pra_prato;
-
-ALTER TABLE ped_pedido
     DROP CONSTRAINT ped_pedido_res_reserva;
 
 ALTER TABLE res_reserva
@@ -44,6 +47,8 @@ DROP TABLE for_fornecedor;
 DROP TABLE fun_funcionario;
 
 DROP TABLE ins_insumo;
+
+DROP TABLE ite_item_pedido;
 
 DROP TABLE ped_pedido;
 

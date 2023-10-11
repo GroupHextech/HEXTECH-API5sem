@@ -1,5 +1,5 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2023-10-11 01:36:40.034
+-- Last modification date: 2023-10-11 17:29:27.924
 
 -- tables
 -- Table: cat_categoria
@@ -25,7 +25,7 @@ CREATE TABLE est_estoque (
     est_qtd_estoque float(4)  NULL,
     est_nivel_minimo float(4)  NULL,
     uni_id integer  NOT NULL,
-    cat_categoria_cat_id integer  NOT NULL,
+    cat_id integer  NOT NULL,
     CONSTRAINT ite_item_pk PRIMARY KEY (est_id)
 ) ;
 
@@ -141,7 +141,7 @@ ALTER TABLE con_confeccao ADD CONSTRAINT con_confeccao_pra_prato
 
 -- Reference: est_estoque_cat_categoria (table: est_estoque)
 ALTER TABLE est_estoque ADD CONSTRAINT est_estoque_cat_categoria
-    FOREIGN KEY (cat_categoria_cat_id)
+    FOREIGN KEY (cat_id)
     REFERENCES cat_categoria (cat_id);
 
 -- Reference: est_estoque_uni_unidade (table: est_estoque)
