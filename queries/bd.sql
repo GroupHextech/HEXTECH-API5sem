@@ -1,5 +1,5 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2023-10-11 17:29:27.924
+-- Last modification date: 2023-10-12 00:28:12.949
 
 -- tables
 -- Table: cat_categoria
@@ -21,7 +21,7 @@ CREATE TABLE con_confeccao (
 -- Table: est_estoque
 CREATE TABLE est_estoque (
     est_id integer  NOT NULL,
-    est_nome varchar2(30)  NULL,
+    est_nome varchar2(30)  NOT NULL,
     est_qtd_estoque float(4)  NULL,
     est_nivel_minimo float(4)  NULL,
     uni_id integer  NOT NULL,
@@ -32,7 +32,7 @@ CREATE TABLE est_estoque (
 -- Table: for_fornecedor
 CREATE TABLE for_fornecedor (
     for_id integer  NOT NULL,
-    for_nome varchar2(50)  NULL,
+    for_nome varchar2(50)  NOT NULL,
     for_telefone varchar2(15)  NULL,
     for_endereco varchar2(100)  NULL,
     for_email varchar2(100)  NULL,
@@ -42,7 +42,7 @@ CREATE TABLE for_fornecedor (
 -- Table: fun_funcionario
 CREATE TABLE fun_funcionario (
     fun_id integer  NOT NULL,
-    fun_nome varchar2(50)  NULL,
+    fun_nome varchar2(50)  NOT NULL,
     fun_funcao varchar2(50)  NULL,
     fun_salario float(2)  NULL,
     fun_folga date  NULL,
@@ -85,6 +85,7 @@ CREATE TABLE ped_pedido (
 -- Table: pra_prato
 CREATE TABLE pra_prato (
     pra_id integer  NOT NULL,
+    pra_nome varchar2(50)  NOT NULL,
     pra_custo float(2)  NULL,
     pra_preco_venda float(2)  NULL,
     pra_tempo_preparo timestamp  NULL,
@@ -94,7 +95,7 @@ CREATE TABLE pra_prato (
 -- Table: res_reserva
 CREATE TABLE res_reserva (
     res_id integer  NOT NULL,
-    res_nome varchar2(50)  NULL,
+    res_nome varchar2(50)  NOT NULL,
     res_telefone varchar2(15)  NULL,
     res_mesa integer  NULL,
     res_qtd_pesssoas integer  NULL,
