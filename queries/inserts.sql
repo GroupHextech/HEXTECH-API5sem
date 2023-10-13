@@ -29,9 +29,9 @@ INSERT INTO est_estoque (est_id, est_nome, est_qtd_estoque, est_nivel_minimo, un
 INSERT INTO est_estoque (est_id, est_nome, est_qtd_estoque, est_nivel_minimo, uni_id, cat_id) VALUES (3, 'Item 3', 200.0, 20.0, 3, 3);
 
 -- Inserções para pra_prato
-INSERT INTO pra_prato (pra_id, pra_custo, pra_preco_venda, pra_tempo_preparo) VALUES (1, 10.00, 20.00, TO_TIMESTAMP('00:30:00', 'hh24:mi:ss'));
-INSERT INTO pra_prato (pra_id, pra_custo, pra_preco_venda, pra_tempo_preparo) VALUES (2, 12.00, 25.00, TO_TIMESTAMP('00:40:00', 'hh24:mi:ss'));
-INSERT INTO pra_prato (pra_id, pra_custo, pra_preco_venda, pra_tempo_preparo) VALUES (3, 15.00, 30.00, TO_TIMESTAMP('00:45:00', 'hh24:mi:ss'));
+INSERT INTO pra_prato (pra_id, pra_nome, pra_custo, pra_preco_venda, pra_tempo_preparo) VALUES (1, 'prato 1', 10.00, 20.00, TO_TIMESTAMP('00:30:00', 'hh24:mi:ss'));
+INSERT INTO pra_prato (pra_id, pra_nome, pra_custo, pra_preco_venda, pra_tempo_preparo) VALUES (1, 'prato 2', 10.00, 20.00, TO_TIMESTAMP('00:30:00', 'hh24:mi:ss'));
+INSERT INTO pra_prato (pra_id, pra_nome, pra_custo, pra_preco_venda, pra_tempo_preparo) VALUES (1, 'prato 3', 10.00, 20.00, TO_TIMESTAMP('00:30:00', 'hh24:mi:ss'));
 
 -- Inserções para con_confeccao
 INSERT INTO con_confeccao (con_id, con_qtd_utilizada, est_id, pra_id) VALUES (1, 10.5, 1, 1);
