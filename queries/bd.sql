@@ -97,7 +97,7 @@ CREATE TABLE res_reserva (
     res_nome varchar2(50)  NULL,
     res_telefone varchar2(15)  NULL,
     res_mesa integer  NULL,
-    res_qtd_pesssoas integer  NULL,
+    res_qtd_pessoas integer  NULL,
     res_data_hora timestamp  NULL,
     sta_id integer  NOT NULL,
     CONSTRAINT res_reserva_pk PRIMARY KEY (res_id)
