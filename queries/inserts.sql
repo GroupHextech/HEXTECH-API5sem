@@ -30,8 +30,8 @@ INSERT INTO est_estoque (est_id, est_nome, est_qtd_estoque, est_nivel_minimo, un
 
 -- Inserções para pra_prato
 INSERT INTO pra_prato (pra_id, pra_nome, pra_custo, pra_preco_venda, pra_tempo_preparo) VALUES (1, 'prato 1', 10.00, 20.00, TO_TIMESTAMP('00:30:00', 'hh24:mi:ss'));
-INSERT INTO pra_prato (pra_id, pra_nome, pra_custo, pra_preco_venda, pra_tempo_preparo) VALUES (1, 'prato 2', 10.00, 20.00, TO_TIMESTAMP('00:30:00', 'hh24:mi:ss'));
-INSERT INTO pra_prato (pra_id, pra_nome, pra_custo, pra_preco_venda, pra_tempo_preparo) VALUES (1, 'prato 3', 10.00, 20.00, TO_TIMESTAMP('00:30:00', 'hh24:mi:ss'));
+INSERT INTO pra_prato (pra_id, pra_nome, pra_custo, pra_preco_venda, pra_tempo_preparo) VALUES (2, 'prato 2', 10.00, 20.00, TO_TIMESTAMP('00:30:00', 'hh24:mi:ss'));
+INSERT INTO pra_prato (pra_id, pra_nome, pra_custo, pra_preco_venda, pra_tempo_preparo) VALUES (3, 'prato 3', 10.00, 20.00, TO_TIMESTAMP('00:30:00', 'hh24:mi:ss'));
 
 -- Inserções para con_confeccao
 INSERT INTO con_confeccao (con_id, con_qtd_utilizada, est_id, pra_id) VALUES (1, 10.5, 1, 1);
@@ -44,9 +44,9 @@ INSERT INTO ins_insumo (ins_id, ins_qtd_entrada, ins_validade, ins_data_hora_com
 INSERT INTO ins_insumo (ins_id, ins_qtd_entrada, ins_validade, ins_data_hora_compra, ins_valor_compra, for_id, est_id) VALUES (3, 1000.0, TO_DATE('2023-10-31', 'yyyy-mm-dd'), TO_TIMESTAMP('2023-10-10 10:45:00', 'yyyy-mm-dd hh24:mi:ss'), 950.00, 3, 3);
 
 -- Inserções para res_reserva
-INSERT INTO res_reserva (res_id, res_nome, res_telefone, res_mesa, res_qtd_pesssoas, res_data_hora, sta_id) VALUES (1, 'Reserva 1', '111-111-1111', 1, 4, TO_TIMESTAMP('2023-10-02 18:00:00', 'yyyy-mm-dd hh24:mi:ss'), 1);
-INSERT INTO res_reserva (res_id, res_nome, res_telefone, res_mesa, res_qtd_pesssoas, res_data_hora, sta_id) VALUES (2, 'Reserva 2', '222-222-2222', 2, 6, TO_TIMESTAMP('2023-10-06 19:30:00', 'yyyy-mm-dd hh24:mi:ss'), 2);
-INSERT INTO res_reserva (res_id, res_nome, res_telefone, res_mesa, res_qtd_pesssoas, res_data_hora, sta_id) VALUES (3, 'Reserva 3', '333-333-3333', 3, 8, TO_TIMESTAMP('2023-10-11 20:00:00', 'yyyy-mm-dd hh24:mi:ss'), 3);
+INSERT INTO res_reserva (res_id, res_nome, res_telefone, res_mesa, res_qtd_pessoas, res_data_hora, sta_id) VALUES (1, 'Reserva 1', '111-111-1111', 1, 4, TO_TIMESTAMP('2023-10-02 18:00:00', 'yyyy-mm-dd hh24:mi:ss'), 1);
+INSERT INTO res_reserva (res_id, res_nome, res_telefone, res_mesa, res_qtd_pessoas, res_data_hora, sta_id) VALUES (2, 'Reserva 2', '222-222-2222', 2, 6, TO_TIMESTAMP('2023-10-06 19:30:00', 'yyyy-mm-dd hh24:mi:ss'), 2);
+INSERT INTO res_reserva (res_id, res_nome, res_telefone, res_mesa, res_qtd_pessoas, res_data_hora, sta_id) VALUES (3, 'Reserva 3', '333-333-3333', 3, 8, TO_TIMESTAMP('2023-10-11 20:00:00', 'yyyy-mm-dd hh24:mi:ss'), 3);
 
 -- Inserções para ped_pedido
 INSERT INTO ped_pedido (ped_id, ped_hora_pedido, ped_hora_entregue, ped_valor_total, ped_avaliacao, fun_id, res_id) VALUES (1, TO_TIMESTAMP('2023-10-01 12:00:00', 'yyyy-mm-dd hh24:mi:ss'), TO_TIMESTAMP('2023-10-01 12:30:00', 'yyyy-mm-dd hh24:mi:ss'), 50.00, 5, 1, 1);
