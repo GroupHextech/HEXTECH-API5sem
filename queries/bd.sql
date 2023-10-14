@@ -1,5 +1,5 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2023-10-12 00:28:12.949
+-- Last modification date: 2023-10-14 00:45:27.541
 
 -- tables
 -- Table: cat_categoria

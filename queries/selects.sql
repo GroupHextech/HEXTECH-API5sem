@@ -18,7 +18,3 @@ SELECT * FROM fun_funcionario;
 
 -- SELECT na tabela res_reserva
 SELECT * FROM res_reserva;
-
--- SELECT da view mesa_status_por_data
-SELECT * FROM v_status_reservas;
-

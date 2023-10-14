@@ -1,5 +1,5 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2023-10-11 17:29:27.924
+-- Last modification date: 2023-10-14 00:45:27.541
 
 -- foreign keys
 ALTER TABLE ite_item_pedido
@@ -81,8 +81,4 @@ DROP SEQUENCE ADMIN.sta_status_seq;
 
 DROP SEQUENCE ADMIN.uni_unidade_seq;
 
--- Views
-DROP VIEW v_status_reservas;
-
 -- End of file.
-
