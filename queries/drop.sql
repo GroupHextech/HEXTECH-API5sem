@@ -1,12 +1,21 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2023-10-10 00:49:07.096
+-- Last modification date: 2023-10-14 00:45:27.541
 
 -- foreign keys
+ALTER TABLE ite_item_pedido
+    DROP CONSTRAINT Table_13_ped_pedido;
+
+ALTER TABLE ite_item_pedido
+    DROP CONSTRAINT Table_13_pra_prato;
+
 ALTER TABLE con_confeccao
     DROP CONSTRAINT con_confeccao_est_estoque;
 
 ALTER TABLE con_confeccao
     DROP CONSTRAINT con_confeccao_pra_prato;
+
+ALTER TABLE est_estoque
+    DROP CONSTRAINT est_estoque_cat_categoria;
 
 ALTER TABLE est_estoque
     DROP CONSTRAINT est_estoque_uni_unidade;
@@ -21,15 +30,14 @@ ALTER TABLE ped_pedido
     DROP CONSTRAINT ped_pedido_fun_funcionario;
 
 ALTER TABLE ped_pedido
-    DROP CONSTRAINT ped_pedido_pra_prato;
-
-ALTER TABLE ped_pedido
     DROP CONSTRAINT ped_pedido_res_reserva;
 
-ALTER TABLE ped_pedido
-    DROP CONSTRAINT ped_pedido_sta_status;
+ALTER TABLE res_reserva
+    DROP CONSTRAINT res_reserva_sta_status;
 
 -- tables
+DROP TABLE cat_categoria;
+
 DROP TABLE con_confeccao;
 
 DROP TABLE est_estoque;
@@ -39,6 +47,8 @@ DROP TABLE for_fornecedor;
 DROP TABLE fun_funcionario;
 
 DROP TABLE ins_insumo;
+
+DROP TABLE ite_item_pedido;
 
 DROP TABLE ped_pedido;
 
@@ -72,4 +82,3 @@ DROP SEQUENCE ADMIN.sta_status_seq;
 DROP SEQUENCE ADMIN.uni_unidade_seq;
 
 -- End of file.
-
