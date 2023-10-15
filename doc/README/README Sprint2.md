@@ -21,16 +21,16 @@ The goal is to build a comprehensive system that offers features such as dashboa
 ## <p align="center"> 🗒️ Sprint Backlog 🗒️
 
 <p align="center">
-  <img src="" width="600">
+  <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Backlog/Backlog%20Sprint%202.png" width="600">
 </p>
 
 ## <p align="center"> 👦 User Stories 👧
 | Story | Why |
 | --- | --- |
-| <p align="center"> I, as a user, |  <p align="center"> To
-| <p align="center"> I, as a user, |  <p align="center"> To 
-| <p align="center"> I, as a user, |  <p align="center"> To 
-| <p align="center"> I, as a user, |  <p align="center"> To 
+| <p align="center"> I, as a user, I want to graphically visualize my recipes |  <p align="center"> To view and organize my recipes
+| <p align="center"> I, as a user, I want to graphically visualize my inputs|  <p align="center"> To view and organize my inputs
+| <p align="center"> I, as a user, I want to graphically visualize my feedback |  <p align="center"> To view and analyze my recipesmy feedback 
+| <p align="center"> I, as a user, I want upload my CVs|  <p align="center"> To add data to my charts
 
 # <p align="center"> *Project in Operation* 💻
 
@@ -49,10 +49,10 @@ The goal is to build a comprehensive system that offers features such as dashboa
 ### User Story
 | Story | Why |
 | --- | --- |
-| <p align="center"> I, as a user, |  <p align="center"> To 
-| <p align="center"> I, as a user, |  <p align="center"> To 
-| <p align="center"> I, as a user, |  <p align="center"> To 
-| <p align="center"> I, as a user, |  <p align="center"> To 
+| <p align="center"> I, as a user, I want to graphically visualize my recipes |  <p align="center"> To view and organize my recipes
+| <p align="center"> I, as a user, I want to graphically visualize my inputs|  <p align="center"> To view and organize my inputs
+| <p align="center"> I, as a user, I want to graphically visualize my feedback |  <p align="center"> To view and analyze my recipesmy feedback 
+| <p align="center"> I, as a user, I want upload my CVs|  <p align="center"> To add data to my charts
 
 ##  <p align="center"> Definition of Done ✔️
 
