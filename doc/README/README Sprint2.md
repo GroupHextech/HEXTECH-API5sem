@@ -27,9 +27,9 @@ The goal is to build a comprehensive system that offers features such as dashboa
 ## <p align="center"> 👦 User Stories 👧
 | Story | Why |
 | --- | --- |
-| <p align="center"> I, as a user, I want to graphically visualize my recipes |  <p align="center"> To view and organize my recipes
-| <p align="center"> I, as a user, I want to graphically visualize my inputs|  <p align="center"> To view and organize my inputs
-| <p align="center"> I, as a user, I want to graphically visualize my feedback |  <p align="center"> To view and analyze my recipesmy feedback 
+| <p align="center"> I, as a user, I want to graphically visualize my recipes |  <p align="center"> To view and analyze my recipes
+| <p align="center"> I, as a user, I want to graphically visualize my inputs|  <p align="center"> To view and analyze my inputs
+| <p align="center"> I, as a user, I want to graphically visualize my feedback |  <p align="center"> To view and analyze my feedback 
 | <p align="center"> I, as a user, I want upload my CVs|  <p align="center"> To add data to my charts
 
 # <p align="center"> *Project in Operation* 💻
@@ -49,9 +49,9 @@ The goal is to build a comprehensive system that offers features such as dashboa
 ### User Story
 | Story | Why |
 | --- | --- |
-| <p align="center"> I, as a user, I want to graphically visualize my recipes |  <p align="center"> To view and organize my recipes
-| <p align="center"> I, as a user, I want to graphically visualize my inputs|  <p align="center"> To view and organize my inputs
-| <p align="center"> I, as a user, I want to graphically visualize my feedback |  <p align="center"> To view and analyze my recipesmy feedback 
+| <p align="center"> I, as a user, I want to graphically visualize my recipes |  <p align="center"> To view and analyze my recipes
+| <p align="center"> I, as a user, I want to graphically visualize my inputs|  <p align="center"> To view and analyze my inputs
+| <p align="center"> I, as a user, I want to graphically visualize my feedback |  <p align="center"> To view and analyze my feedback 
 | <p align="center"> I, as a user, I want upload my CVs|  <p align="center"> To add data to my charts
 
 ##  <p align="center"> Definition of Done ✔️
@@ -66,9 +66,9 @@ The goal is to build a comprehensive system that offers features such as dashboa
          
 # <p align="center"> *Burndown* 📉
 
-<p align="justify"> In development </p>
+<p align="justify"> In this second sprint we had unforeseen events and difficulties regarding the creation of graphics and their front, back and database integrations, so we focused on delivering the MVP, leaving the new features that will be implemented throughout the project for the next sprints.</p>
 
 <p align="center">
-        <img src="" height="350">
+        <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Burndown/Burndown%20Sprint%202.png" height="350">
 </p>
 
