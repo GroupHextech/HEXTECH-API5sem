@@ -42,9 +42,9 @@ It was decided that the project would be divided into 4 deliveries, throughout t
 
 # Project in Operation 💻
 
-<p align="justify"> In development
+<p align="justify"> In this sprint we decided to deliver the graphs relating to recipes, inputs and feedback at the customer's request, thus being our MVP of the second sprint
 <p align="center"> 
-    <img src="" width=""/>
+    <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Mockup/Project%20in%20Operation/ProjectOperation%20Sprint2.gif" width=""/>
 </p>
 
 # Delivery Schedule 🗓
