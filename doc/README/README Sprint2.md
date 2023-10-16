@@ -24,19 +24,26 @@ The goal is to build a comprehensive system that offers features such as dashboa
   <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Backlog/Backlog%20Sprint%202.png" width="600">
 </p>
 
-## <p align="center"> 👦 User Stories 👧
+## <p align="center">👦 User Stories 👧
+
+<p align="center">
+    
 | Story | Why |
 | --- | --- |
 | <p align="center"> I, as a user, I want to graphically visualize my recipes |  <p align="center"> To view and analyze my recipes
 | <p align="center"> I, as a user, I want to graphically visualize my inputs|  <p align="center"> To view and analyze my inputs
 | <p align="center"> I, as a user, I want to graphically visualize my feedback |  <p align="center"> To view and analyze my feedback 
-| <p align="center"> I, as a user, I want upload my CVs|  <p align="center"> To add data to my charts
+| <p align="center"> I, as a user, I want upload my CVs|  <p align="center"> To add data to my charts </p>
 
 # <p align="center"> *Project in Operation* 💻
 
 <p align="justify">
-  In development
+  In this sprint we decided to deliver the graphs relating to recipes, inputs and feedback at the customer's request, thus being our MVP of the second sprint
 </p>
+<p align="center">
+  <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Mockup/Project%20in%20Operation/ProjectOperation%20Sprint2.gif" width="">
+</p>
+
 
 <p align="center"> <img src="">
     
