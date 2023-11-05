@@ -21,7 +21,7 @@ The goal is to build a comprehensive system that offers features such as dashboa
 ## <p align="center"> 🗒️ Sprint Backlog 🗒️
 
 <p align="center">
-  <img src="" width="600">
+  <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Backlog/Backlog%20Sprint%203.png" width="600">
 </p>
 
 ## <p align="center">👦 User Stories 👧
@@ -30,10 +30,9 @@ The goal is to build a comprehensive system that offers features such as dashboa
     
 | Story | Why |
 | --- | --- |
-| <p align="center"> I, as a user, |  <p align="center"> To
-| <p align="center"> I, as a user, |  <p align="center"> To
-| <p align="center"> I, as a user, |  <p align="center"> To
-| <p align="center"> I, as a user, |  <p align="center"> To 
+| <p align="center"> I, as a user, I want to manage my suppliers |  <p align="center"> To so that I can visualize and organize my plans with suppliers
+| <p align="center"> I, as a user, I want to receive notices about the quantity of my inputs |  <p align="center"> So that when there are few supplies I can organize and plan the rest of my supplies
+| <p align="center"> I, as a user, I want to make order changes |  <p align="center"> To so that they are suitable for my management
 
 # <p align="center"> *Project in Operation* 💻
 
@@ -56,10 +55,9 @@ The goal is to build a comprehensive system that offers features such as dashboa
 ### User Story
 | Story | Why |
 | --- | --- |
-| <p align="center"> I, as a user, |  <p align="center"> To
-| <p align="center"> I, as a user, |  <p align="center"> To
-| <p align="center"> I, as a user, |  <p align="center"> To
-| <p align="center"> I, as a user, |  <p align="center"> To 
+| <p align="center"> I, as a user, I want to manage my suppliers |  <p align="center"> To so that I can visualize and organize my plans with suppliers
+| <p align="center"> I, as a user, I want to receive notices about the quantity of my inputs |  <p align="center"> So that when there are few supplies I can organize and plan the rest of my supplies
+| <p align="center"> I, as a user, I want to make order changes |  <p align="center"> To so that they are suitable for my management
 
 ##  <p align="center"> Definition of Done ✔️
 
