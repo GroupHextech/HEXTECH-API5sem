@@ -10,7 +10,7 @@
 
 <h2 align="right">
         <img src="https://img.shields.io/badge/status-ongoing-blue?style=for-the-badge&logo=appveyor" alt="Status: Ongoing">   
-        <img src="https://img.shields.io/badge/sprint-3-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
+        <img src="https://img.shields.io/badge/sprint-4-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
 </h2>
 
 
@@ -42,9 +42,9 @@ It was decided that the project would be divided into 4 deliveries, throughout t
 
 # Project in Operation 💻
 
-<p align="justify"> In this sprint we decided to deliver the graphs relating to recipes, inputs and feedback at the customer's request, thus being our MVP of the second sprint
+<p align="justify"> In this sprint we chose to deliver supplier management graphically and the notification of the quantity of current inputs with some adjustments to reserves
 <p align="center"> 
-    <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Mockup/Project%20in%20Operation/ProjectOperation%20Sprint2.gif" width=""/>
+    <img src="" width=""/>
 </p>
 
 # Delivery Schedule 🗓
@@ -53,7 +53,7 @@ It was decided that the project would be divided into 4 deliveries, throughout t
 |  Kick-Off  | Project development planning |  28/08  | *N/A* | 
 |  Sprint 1  | Viewing and making reservations, viewing customer feedback and managing ingredients supplies | 24/09 | [View](https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/README/README%20Sprint1.md) |
 |  Sprint 2  | Viewing graphs of recipes, inputs, feedback and upload CVs files | 15/10 | [View](https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/README/README%20Sprint2.md) | 
-|  Sprint 3  | In development | 05/11 | [View](https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/README/README%20Sprint3.md) | 
+|  Sprint 3  | Supplier management and input notices | 05/11 | [View](https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/README/README%20Sprint3.md) | 
 |  Sprint 4  | In development | 26/11 | - |
 
 # Data Dictionary 📖
