@@ -43,9 +43,6 @@ The goal is to build a comprehensive system that offers features such as dashboa
 <p align="center">
   <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Mockup/Project%20in%20Operation/ProjectOperation%20Sprint%203.gif" width="">
 </p>
-
-
-<p align="center"> <img src="">
     
 ##  <p align="center"> Definition of Ready 📑
 
