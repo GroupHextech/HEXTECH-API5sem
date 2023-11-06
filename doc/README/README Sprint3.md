@@ -37,10 +37,11 @@ The goal is to build a comprehensive system that offers features such as dashboa
 # <p align="center"> *Project in Operation* 💻
 
 <p align="justify">
+    In this sprint we chose to deliver supplier management graphically and the notification of the quantity of current inputs with some adjustments to reserves for our MVP
 
 </p>
 <p align="center">
-  <img src="" width="">
+  <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Mockup/Project%20in%20Operation/ProjectOperation%20Sprint%203.gif" width="">
 </p>
 
 
@@ -71,9 +72,9 @@ The goal is to build a comprehensive system that offers features such as dashboa
          
 # <p align="center"> *Burndown* 📉
 
-<p align="justify"></p>
+<p align="justify">In this sprint we had some obstacles that unfortunately did not allow us to deliver all the features planned in the sprint, but most of them were delivered</p>
 
 <p align="center">
-        <img src="" height="350">
+        <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Burndown/Burndown%20Sprint%203.png" height="350">
 </p>
 
