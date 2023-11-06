@@ -44,7 +44,7 @@ It was decided that the project would be divided into 4 deliveries, throughout t
 
 <p align="justify"> In this sprint we chose to deliver supplier management graphically and the notification of the quantity of current inputs with some adjustments to reserves
 <p align="center"> 
-    <img src="" width=""/>
+    <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Mockup/Project%20in%20Operation/ProjectOperation%20Sprint%203.gif" width=""/>
 </p>
 
 # Delivery Schedule 🗓
