@@ -114,6 +114,7 @@ CREATE TABLE ped_pedido (
     ped_hora_pedido timestamp  NULL,
     ped_hora_entregue timestamp  NULL,
     ped_valor_total float(2)  NULL,
+	ped_avaliacao integer,
     res_id integer  NOT NULL,
     res_telefone varchar2(15)  NOT NULL,
     CONSTRAINT ped_pedido_pk PRIMARY KEY (ped_id)
