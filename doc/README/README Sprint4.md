@@ -10,7 +10,7 @@
 
 <h2 align="right">
         <img src="https://img.shields.io/badge/status-complete-blue?style=for-the-badge&logo=appveyor" alt="Status: Ongoing">   
-        <img src="https://img.shields.io/badge/sprint-3-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
+        <img src="https://img.shields.io/badge/sprint-4-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
 </h2>
 
 # <p align="center"> *The Project* 📚
@@ -21,7 +21,7 @@ The goal is to build a comprehensive system that offers features such as dashboa
 ## <p align="center"> 🗒️ Sprint Backlog 🗒️
 
 <p align="center">
-  <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Backlog/Backlog%20Sprint%203.png" width="600">
+  <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Backlog/Backlog%20Sprint%204.png" width="600">
 </p>
 
 ## <p align="center">👦 User Stories 👧
@@ -30,18 +30,18 @@ The goal is to build a comprehensive system that offers features such as dashboa
     
 | Story | Why |
 | --- | --- |
-| <p align="center"> I, as a user, I want to manage my suppliers |  <p align="center"> To so that I can visualize and organize my plans with suppliers
-| <p align="center"> I, as a user, I want to receive notices about the quantity of my inputs |  <p align="center"> So that when there are few supplies I can organize and plan the rest of my supplies
-| <p align="center"> I, as a user, I want to make order changes |  <p align="center"> To so that they are suitable for my management
+| <p align="center"> I, as a user,  |  <p align="center"> 
+| <p align="center"> I, as a user,  |  <p align="center"> 
+| <p align="center"> I, as a user,  |  <p align="center">
 
 # <p align="center"> *Project in Operation* 💻
 
 <p align="justify">
-    In this sprint we chose to deliver supplier management graphically and the notification of the quantity of current inputs with some adjustments to reserves for our MVP
+    
 
 </p>
 <p align="center">
-  <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Mockup/Project%20in%20Operation/ProjectOperation%20Sprint%203.gif" width="">
+  <img src="" width="">
 </p>
     
 ##  <p align="center"> Definition of Ready 📑
@@ -53,9 +53,9 @@ The goal is to build a comprehensive system that offers features such as dashboa
 ### User Story
 | Story | Why |
 | --- | --- |
-| <p align="center"> I, as a user, I want to manage my suppliers |  <p align="center"> To so that I can visualize and organize my plans with suppliers
-| <p align="center"> I, as a user, I want to receive notices about the quantity of my inputs |  <p align="center"> So that when there are few supplies I can organize and plan the rest of my supplies
-| <p align="center"> I, as a user, I want to make order changes |  <p align="center"> To so that they are suitable for my management
+| <p align="center"> I, as a user,  |  <p align="center"> 
+| <p align="center"> I, as a user,  |  <p align="center"> 
+| <p align="center"> I, as a user,  |  <p align="center">
 
 ##  <p align="center"> Definition of Done ✔️
 
@@ -69,9 +69,9 @@ The goal is to build a comprehensive system that offers features such as dashboa
          
 # <p align="center"> *Burndown* 📉
 
-<p align="justify">In this sprint we had some obstacles that unfortunately did not allow us to deliver all the features planned in the sprint, but most of them were delivered</p>
+<p align="justify"></p>
 
 <p align="center">
-        <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Burndown/Burndown%20Sprint%203.png" height="350">
+        <img src="" height="350">
 </p>
 
