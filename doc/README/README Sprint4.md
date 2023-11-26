@@ -30,9 +30,9 @@ The goal is to build a comprehensive system that offers features such as dashboa
     
 | Story | Why |
 | --- | --- |
-| <p align="center"> I, as a user,  |  <p align="center"> 
-| <p align="center"> I, as a user,  |  <p align="center"> 
-| <p align="center"> I, as a user,  |  <p align="center">
+| <p align="center"> I, as a user, I want access to the personal management of my employees  |  <p align="center"> so that I can manage my employees' schedules, work hours, days off and performance
+| <p align="center"> I, as a user, I want to have access profiles  |  <p align="center"> so that each profile has its functionalities limited to each position
+| <p align="center"> I, as a user, I want to have an expiration date on my products |  <p align="center"> so that I can organize myself to make purchases of certain products that are about to expire
 
 # <p align="center"> *Project in Operation* 💻
 
@@ -53,9 +53,9 @@ The goal is to build a comprehensive system that offers features such as dashboa
 ### User Story
 | Story | Why |
 | --- | --- |
-| <p align="center"> I, as a user,  |  <p align="center"> 
-| <p align="center"> I, as a user,  |  <p align="center"> 
-| <p align="center"> I, as a user,  |  <p align="center">
+| <p align="center"> I, as a user, I want access to the personal management of my employees  |  <p align="center"> so that I can manage my employees' schedules, work hours, days off and performance
+| <p align="center"> I, as a user, I want to have access profiles  |  <p align="center"> so that each profile has its functionalities limited to each position
+| <p align="center"> I, as a user, I want to have an expiration date on my products |  <p align="center"> so that I can organize myself to make purchases of certain products that are about to expire
 
 ##  <p align="center"> Definition of Done ✔️
 
