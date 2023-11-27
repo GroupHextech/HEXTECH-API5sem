@@ -42,9 +42,9 @@ It was decided that the project would be divided into 4 deliveries, throughout t
 
 # Project in Operation 💻
 
-<p align="justify"> In this sprint we chose to deliver Personal Management, Access Profile and Expiration Alert
+<p align="justify"> In this last sprint we chose to deliver Personal Management, Access Profile and Expiration Alert thus completing the delivery of our project as a whole, delivering the main functionalities needed by the client
 <p align="center"> 
-    <img src="" width=""/>
+    <img src="https://github.com/GroupHextech/HEXTECH-API5sem/blob/main/doc/Mockup/Project%20in%20Operation/ProjectOperationSprint4.gif" width=""/>
 </p>
 
 # Delivery Schedule 🗓
